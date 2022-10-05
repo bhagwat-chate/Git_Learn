@@ -1,3 +1,5 @@
+from util import supportOps
+
 class MyClass:
     def __init__(self):
         pass
@@ -9,4 +11,7 @@ class MyClass:
 if __name__ == '__main__':
     obj = MyClass()
     obj.my_func()
+
+    obj1 = supportOps()
+    obj1.supportfunction()
 
